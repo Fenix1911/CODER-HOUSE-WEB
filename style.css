@@ -1,6 +1,11 @@
 .cuadradoPrincipal{
     height: 45vw;
-    background-color: black;
+    background-image:url(Imagenes/interior-sala-cocina-dibujos-animados-casa-fondo-vectorial-refrigerador-muebles-cocina-dentro-casa-acogedor-apartamento-armario-modular-refrigerador-cocina-equipo-hervidor_107791-23665.avif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+
 }
 
 footer {
