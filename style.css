@@ -7,6 +7,11 @@
 
 /* HEADER ---------------------------------------------------------------------------------------------------------*/
 
+nav.bg-body-tertiary {
+    z-index: 10000;
+    background-color: beige !important;
+}
+
 .navbar-brand{
     font-size: 2.5vw;
     font-weight: bold;
@@ -123,7 +128,7 @@ footer {
 
 
 .icono{
-    width: 3vw;
+    width: 5vw;
     
     
 }
