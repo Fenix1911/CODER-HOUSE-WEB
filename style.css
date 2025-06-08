@@ -29,6 +29,19 @@ nav ul li {
     font-weight: bold;
 }
 
+.icono{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 5vw;
+    width: 5vw;
+    border-radius: 50%;
+    background-color: #f0f0f0;
+    transition: background-color 0.3s ease;
+}
+.icono:hover{
+    background-color: #e0e0e0;
+}
 
 
 /* MAIN ---------------------------------------------------------------------------------------------------------*/
@@ -124,11 +137,21 @@ footer {
     justify-items: center;
     align-items: center;
     flex-wrap: nowrap;
+    padding: 10px;
 }
-
-
-.icono{
-    width: 5vw;
-    
-    
+footer p {
+    font-size: 0.8vw;
+    color: black;
+    margin: 10px;
+}
+footer a {
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+footer a:hover {
+    text-decoration: underline;
+}
+footer .icono{
+    margin-left: 70px;
 }
