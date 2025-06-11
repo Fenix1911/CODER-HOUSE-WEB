@@ -437,3 +437,29 @@ footer a:hover {
 footer .icono{
     margin-left: 70px;
 }
+
+/* MEDIA QUERIES -----------------------------------------------------------------------------------------------------*/
+@media (max-width: 768px) {
+    footer {
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+    }
+    footer .icono{
+        text-align: center;
+        margin:auto;
+    }
+
+    #contenedorReceta {
+        display: flex;
+        flex-direction: column;
+        width: 90vw;
+        height: auto;
+        gap: 20px;
+        justify-items: center;
+        align-items: center;
+    }
+
+
+}
