@@ -504,6 +504,7 @@ footer .icono{
     .descripcion {
         font-size: 2vw;
         width: 80vw;
+        padding: 3px;
     }
 
     #contenedorReceta {
