@@ -88,7 +88,9 @@ nav ul li {
     height: 15vw;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.5);
     background-color: skyblue;
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
@@ -100,7 +102,10 @@ nav ul li {
     width: 15vw;
     height: 15vw;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.5);
-    background-color: greenyellow
+    background-color: greenyellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .contenedorInicio_3 {
@@ -111,7 +116,10 @@ nav ul li {
     width: 15vw;
     height: 15vw;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.5);
-    background-color: greenyellow
+    background-color: greenyellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .contenedorInicio_4 {
@@ -123,6 +131,9 @@ nav ul li {
     height: 15vw;
     box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.5);
     background-color: skyblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .contenedorInicio_1:hover,
@@ -131,6 +142,14 @@ nav ul li {
 .contenedorInicio_4:hover {
     transform: scale(1.05);
     transition: transform 0.3s ease;
+}
+
+.botonInvisible {
+    width: 15vw;
+    height: 15vw;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
 }
 
 /*QUIENES SOMOS --------------------------------------------------------------------------------------- */ 
